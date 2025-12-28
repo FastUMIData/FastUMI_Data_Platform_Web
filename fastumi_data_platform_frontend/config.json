@@ -1,0 +1,13 @@
+{
+  "single_device": false,
+  "devices": {
+    "device_0": {
+      "label": "left_hand",
+      "xv_serial": "250801DR48FP25002270"
+    },
+    "device_1": {
+      "label": "right_hand",
+      "xv_serial": "250801DR48FP25002067"
+    }
+  }
+}

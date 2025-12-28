@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklumos_data_platform=self.webpackChunklumos_data_platform||[]).push([[390],{96390:function(s,u,t){t.r(u),t.d(u,{default:function(){return o}});var E=t(67294),n=t(92016),a=t(85893);function o(){var l=(0,n.useOutletContext)();return(0,a.jsx)(n.Outlet,{context:l})}}}]);
