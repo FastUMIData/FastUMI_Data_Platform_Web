@@ -1,42 +1,60 @@
-# data_platform_web
-数采平台
+# 数采平台部署指南
 
-1.部署前端
-  1）安装nginx
-  	sudo apt update
-  	sudo apt install nginx
-  2）启动nginx
-  	sudo systemctl start nginx
-  3) 配置nginx端口：
-  	cd /etc/nginx/conf.d/
-  	sudo -E vi dataplatform.conf
-	"""
-	server {
-    	listen 8000;
-    	server_name localhost;
-    	location / {
-        	root /var/www/html/fastumi_data_platform_frontend;
-        	index index.html index.htm;
-        	try_files $uri $uri/ = 404;
-    		}
+## 1. 部署前端
 
-	}
-	"""
-  4）重新加载nginx配置:
-   	sudo -E nginx -s reload
-  5）将data_platform_frontend复制到/var/www/html下：
-  	cd /var/www/html
-  	sudo -E cp -r /实际路径/data_platform_deploy/fastumi_data_platform_frontend .
-  	
-访问http://localhost:8000 
-用户名:admin
-密码:admin123    
+### 1.1 安装Nginx
+```bash
+sudo apt update
+sudo apt install nginx
+```
+### 1.2 启动 nginx
+```bash
+sudo systemctl start nginx
+```
 
-*关闭nginx：sudo systemctl stop nginx
+### 1.3 配置 nginx 端口
+```bash
+cd /etc/nginx/conf.d/
+sudo -E vi dataplatform.conf
+```
+配置内容如下
+```bash
+server {
+    listen 8000;
+    server_name localhost;
+    location / {
+        root /var/www/html/fastumi_data_platform_frontend;
+        index index.html index.htm;
+        try_files $uri $uri/ = 404;
+    }
+}
+```
+
+### 1.4 重新加载 nginx 配置
+```bash
+sudo -E nginx -s reload
+```
+
+### 1.5 将前端文件复制到指定目录
+```bash
+cd /var/www/html
+sudo -E cp -r /实际路径/fastumi_data_platform_frontend .
+```
+
+访问信息
+访问地址：http://localhost:8000
+用户名：admin
+密码：admin123
 
 
-2.部署后端
-  1）赋可执行权限:
-  	chmod +x fastumi_data_platform_backend
-  2）启动服务:
-  	./fastumi_data_platform_backend
+## 2. 部署后端
+### 2.1 赋可执行权限
+```bash
+chmod +x fastumi_data_platform_backend
+
+```
+
+### 2.2 启动服务
+```bash
+./fastumi_data_platform_backend
+```
