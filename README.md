@@ -50,7 +50,7 @@ Password: admin123
 ## 2. Deployment Backend
 ### 2.1 Download Backend Binary Packages
 Due to github upload file size restrictions, please first download the file from the following link：
-https://pan.baidu.com/s/1HgImyJld_ygN6X4WCl2DaQ Extract code: kcir 
+https://pan.baidu.com/s/1sDD8sXqOUvVbY-MKku8rNA Extract code: pvq1 
 
 ### 2.2 Grant Executable Permissions
 ```bash

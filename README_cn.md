@@ -50,7 +50,7 @@ sudo -E cp -r /实际路径/fastumi_data_platform_frontend .
 ## 2. 部署后端
 ### 2.1 下载后端二进制包
 由于github上传文件大小限制，请先从下方链接下载文件：
-https://pan.baidu.com/s/1HgImyJld_ygN6X4WCl2DaQ 提取码: kcir 
+https://pan.baidu.com/s/1sDD8sXqOUvVbY-MKku8rNA 提取码: pvq1 
 
 ### 2.2 赋可执行权限
 ```bash
