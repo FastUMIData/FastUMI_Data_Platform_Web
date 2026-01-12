@@ -88,8 +88,8 @@ echo -e "\n\033[34m[2/2] 开始部署后端服务\033[0m"
 
 # 1. 提示用户确认后端文件已下载
 echo -e "\033[33m请先从百度网盘下载后端二进制包！\033[0m"
-echo "网盘链接：https://pan.baidu.com/s/1sDD8sXqOUvVbY-MKku8rNA"
-echo "提取码：pvq1"
+echo "网盘链接：https://pan.baidu.com/s/1MDe3PjIBfZbf9k_VjrcH6g"
+echo "提取码：9jm3"
 read -p "确认已将 $BACKEND_BIN 放到当前目录后，按 Enter 继续..." -r
 
 # 2. 检查后端文件是否存在
