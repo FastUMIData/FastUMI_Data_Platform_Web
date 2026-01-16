@@ -25,10 +25,17 @@ server {
     location / {
         root /var/www/html/fastumi_data_platform_frontend;
         index index.html index.htm;
-        try_files $uri $uri/ = 404;
+        try_files \$uri \$uri/ /index.html;  
     }
+    
+    location /data/ {
+        alias $HOME/fastumi/preview/;
+        autoindex off;
+    }
+    
 }
 ```
+提示:$HOME代表`echo ~`命令返回的路径,请替换。
 
 ### 1.4 重新加载 nginx 配置
 ```bash
@@ -43,14 +50,14 @@ sudo -E cp -r /实际路径/fastumi_data_platform_frontend .
 
 访问信息
 访问地址：http://localhost:8000
-用户名：admin
-密码：admin123
+用户名：user
+密码：user123
 
 
 ## 2. 部署后端
 ### 2.1 下载后端二进制包
 由于github上传文件大小限制，请先从下方链接下载文件：
-https://pan.baidu.com/s/1MDe3PjIBfZbf9k_VjrcH6g 提取码: 9jm3 
+https://pan.baidu.com/s/1qrWr-NCGLDP3PmhrnBL8eg?pwd=s4ux
 
 ### 2.2 赋可执行权限
 ```bash

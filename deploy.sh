@@ -54,8 +54,14 @@ server {
     location / {
         root /var/www/html/fastumi_data_platform_frontend;
         index index.html index.htm;
-        try_files \$uri \$uri/ = 404;  
+        try_files \$uri \$uri/ /index.html;  
     }
+    
+    location /data/ {
+        alias $HOME/fastumi/preview/;
+        autoindex off;
+    }
+    
 }
 EOF
 
@@ -80,16 +86,15 @@ sudo cp -r "$FRONTEND_SRC" /var/www/html/ > /dev/null 2>&1
 echo -e "\033[32m完成\033[0m"
 
 echo "前端访问地址：http://localhost:8000"
-echo "登录用户名：admin"
-echo "登录密码：admin123"
+echo "登录用户名：user"
+echo "登录密码：user123"
 
 # ------------------------ 后端部署部分（原逻辑不变） ------------------------
 echo -e "\n\033[34m[2/2] 开始部署后端服务\033[0m"
 
 # 1. 提示用户确认后端文件已下载
 echo -e "\033[33m请先从百度网盘下载后端二进制包！\033[0m"
-echo "网盘链接：https://pan.baidu.com/s/1MDe3PjIBfZbf9k_VjrcH6g"
-echo "提取码：9jm3"
+echo "网盘链接：https://pan.baidu.com/s/1qrWr-NCGLDP3PmhrnBL8eg?pwd=s4ux"
 read -p "确认已将 $BACKEND_BIN 放到当前目录后，按 Enter 继续..." -r
 
 # 2. 检查后端文件是否存在

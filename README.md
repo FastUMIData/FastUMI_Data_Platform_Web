@@ -25,10 +25,17 @@ server {
     location / {
         root /var/www/html/fastumi_data_platform_frontend;
         index index.html index.htm;
-        try_files $uri $uri/ = 404;
+        try_files \$uri \$uri/ /index.html;  
     }
+    
+    location /data/ {
+        alias $HOME/fastumi/preview/;
+        autoindex off;
+    }
+    
 }
 ```
+tips:$HOME represent `echo ~`,please replace it.
 
 ### 1.4 Reload nginx configuration
 ```bash
@@ -43,14 +50,14 @@ sudo -E cp -r /your path/fastumi_data_platform_frontend .
 
 Access Information
 Access address: http://localhost:8000
-Username: admin
-Password: admin123
+Username: user
+Password: user123
 
 
 ## 2. Deployment Backend
 ### 2.1 Download Backend Binary Packages
 Due to github upload file size restrictions, please first download the file from the following link：
-https://pan.baidu.com/s/1MDe3PjIBfZbf9k_VjrcH6g Extract code: 9jm3 
+https://pan.baidu.com/s/1qrWr-NCGLDP3PmhrnBL8eg?pwd=s4ux
 
 ### 2.2 Grant Executable Permissions
 ```bash
