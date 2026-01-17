@@ -1,70 +1,29 @@
-# 数采平台部署指南
+# 数采平台<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><sup>powered by</sup><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="180" alt="lumos">
 
-## 1. 部署前端
+<img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="150" alt="lumos"><img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="150">  
+<img src="fastumi_data_platform_frontend/png/sensor1-IgmNfTb2.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor2-D7IcHAbh.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor3-Cz9qFTxv.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor4-DxSov4Ay.png" width="150">
 
-### 1.1 安装Nginx
+## 📋 平台介绍
+Lumos智能采训系统是一款专为具身智能领域打造的数据采集、管理与标注系统，致力于为VLA模型训练提供高质量、可扩展的数据服务能力。 平台采用存储与业务分离架构，数据可灵活存储于公有云或私有云对象存储。在本地私有云部署环境下，平台已稳定支撑超过300TB数据的标注、导入与导出，充分验证了架构的高可扩展性与可靠性。
+
+## 📖 平台能力
+* 多模态数据采集软硬件系统FastUMI Pro
+* 数据扩增与增强系统AugKit
+* 智能标注系统Labelkit
+* 数据质量评估系统Qualikit
+* 多模测评MODEL BENCHMARK
+* 模型训练MODEL TRAINING
+
+## 🚀 安装部署
+### 1. 克隆仓库
 ```bash
-sudo apt update
-sudo apt install nginx
+git clone git@github.com:FastUMIData/FastUMI_Data_Platform_Web.git
 ```
-### 1.2 启动 nginx
-```bash
-sudo systemctl start nginx
-```
-
-### 1.3 配置 nginx 端口
-```bash
-cd /etc/nginx/conf.d/
-sudo -E vi dataplatform.conf
-```
-配置内容如下
-```bash
-server {
-    listen 8000;
-    server_name localhost;
-    location / {
-        root /var/www/html/fastumi_data_platform_frontend;
-        index index.html index.htm;
-        try_files \$uri \$uri/ /index.html;  
-    }
-    
-    location /data/ {
-        alias $HOME/fastumi/preview/;
-        autoindex off;
-    }
-    
-}
-```
-提示:$HOME代表`echo ~`命令返回的路径,请替换。
-
-### 1.4 重新加载 nginx 配置
-```bash
-sudo -E nginx -s reload
-```
-
-### 1.5 将前端文件复制到指定目录
-```bash
-cd /var/www/html
-sudo -E cp -r /实际路径/fastumi_data_platform_frontend .
-```
-
-访问信息
-访问地址：http://localhost:8000
-用户名：user
-密码：user123
-
-
-## 2. 部署后端
-### 2.1 下载后端二进制包
+### 2. 下载后端二进制文件
 由于github上传文件大小限制，请先从下方链接下载文件：
 https://pan.baidu.com/s/1qrWr-NCGLDP3PmhrnBL8eg?pwd=s4ux
 
-### 2.2 赋可执行权限
+### 3. 运行deploy.bash
 ```bash
-chmod +x fastumi_data_platform_backend
-
-```
-### 2.3 启动服务
-```bash
-./fastumi_data_platform_backend
+bash deploy.sh
 ```
