@@ -1,70 +1,33 @@
-# Digital Mining Platform Deployment Guide
+# Digital Mining Platform<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><small>powered by</small><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="230" alt="lumos">
 
-## 1. Deploying Front End
+<img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="300" alt="lumos">
+<img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="300">  
+<img src="fastumi_data_platform_frontend/png/sensor1-IgmNfTb2.png" width="300">
+<img src="fastumi_data_platform_frontend/png/sensor2-D7IcHAbh.png" width="300">
+<img src="fastumi_data_platform_frontend/png/sensor3-Cz9qFTxv.png" width="300">
+<img src="fastumi_data_platform_frontend/png/sensor4-DxSov4Ay.png" width="300">
 
-### 1.1 Install Nginx
+##📋 Introduction
+Lumos intelligent training system is a data collection, management, and annotation system designed for the embodied intelligent field. It aims to provide high-quality, scalable data services for VLA model training. The platform adopts a storage and business separation architecture, allowing data to be flexibly stored in public cloud object storage or private cloud object storage. In a local private cloud deployment environment, the platform has stably supported over 300TB of data annotation, import, and export, fully validating the high scalability and reliability of the architecture.
+
+##📖 Ability
+* Multi-modal Data Acquisition Hardware & Software System FastUMI Pro
+* Data Augmentation & Enhancement System AugKit
+* Intelligent Annotation System Labelkit
+* Data Quality Evaluation System Qualikit
+* Multi-modal Evaluation MODEL BENCHMARK
+* Model Training MODEL TRAINING
+
+## 🚀 Deployment
+### 1. git clone reposotory
 ```bash
-sudo apt update
-sudo apt install nginx
+git clone git@github.com:FastUMIData/FastUMI_Data_Platform_Web.git
 ```
-### 1.2 Start nginx
-```bash
-sudo systemctl start nginx
-```
-
-### 1.3 Configuring Nginx Ports
-```bash
-cd /etc/nginx/conf.d/
-sudo -E vi dataplatform.conf
-```
-Configuration content is as follows
-```bash
-server {
-    listen 8000;
-    server_name localhost;
-    location / {
-        root /var/www/html/fastumi_data_platform_frontend;
-        index index.html index.htm;
-        try_files \$uri \$uri/ /index.html;  
-    }
-    
-    location /data/ {
-        alias $HOME/fastumi/preview/;
-        autoindex off;
-    }
-    
-}
-```
-tips:$HOME represent `echo ~`,please replace it.
-
-### 1.4 Reload nginx configuration
-```bash
-sudo -E nginx -s reload
-```
-
-### 1.5 Copy frontend files to a specified directory
-```bash
-cd /var/www/html
-sudo -E cp -r /your path/fastumi_data_platform_frontend .
-```
-
-Access Information
-Access address: http://localhost:8000
-Username: user
-Password: user123
-
-
-## 2. Deployment Backend
-### 2.1 Download Backend Binary Packages
+### 2. download backend binary files
 Due to github upload file size restrictions, please first download the file from the following link：
 https://pan.baidu.com/s/1qrWr-NCGLDP3PmhrnBL8eg?pwd=s4ux
 
-### 2.2 Grant Executable Permissions
+### 3. run deploy.bash
 ```bash
-chmod +x fastumi_data_platform_backend
-
-```
-### 2.3 Launch Service
-```bash
-./fastumi_data_platform_backend
+bash deploy.sh
 ```
