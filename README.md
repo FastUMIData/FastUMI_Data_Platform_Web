@@ -1,15 +1,4 @@
-<style>
-  .markdown-body sup.custom-tiny {
-    font-size: 8px !important;
-    vertical-align: baseline !important;
-    margin-top: -0.2em !important;
-    line-height: 1 !important;
-    position: relative !important;
-    top: 0 !important;
-  }
-</style>
-
-# Digital Mining Platform<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><sup class="custom-tiny">powered by</sup><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="180" alt="lumos">
+# Digital Mining Platform<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><sup>powered by</sup><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="180" alt="lumos">
 
 <img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="150" alt="lumos"><img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="150">  
 <img src="fastumi_data_platform_frontend/png/sensor1-IgmNfTb2.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor2-D7IcHAbh.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor3-Cz9qFTxv.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor4-DxSov4Ay.png" width="150">
