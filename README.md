@@ -1,4 +1,5 @@
-# Digital Mining Platform<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size: 25%;">powered by</span><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="200" alt="lumos">
+# Digital Mining Platform<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size: 85% !important;">powered by</span>
+<span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="180" alt="lumos">
 
 <img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="150" alt="lumos"><img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="150">  
 <img src="fastumi_data_platform_frontend/png/sensor1-IgmNfTb2.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor2-D7IcHAbh.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor3-Cz9qFTxv.png" width="150"><img src="fastumi_data_platform_frontend/png/sensor4-DxSov4Ay.png" width="150">
