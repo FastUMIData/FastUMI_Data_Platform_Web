@@ -15,7 +15,7 @@ The FastUMI Pro Web Platform is a streamlined data collection and evaluation sys
 
 ## 🚀 Deployment
 ### 1. install hardware sdk
-please refer to https://github.com/FastUMIData/FastUMI_Hardware_SDK,install ros1 and hardware sdk first.
+please refer to https://github.com/FastUMIData/FastUMI_Hardware_SDK, install ros1 and hardware sdk first.
 
 ### 2. git clone reposotory
 ```bash
@@ -34,4 +34,4 @@ bash deploy.sh
 onced deployed, please visit http://localhost:8000 address in browser, use user/user123 to login.
 
 ## 🔗 Contact us
-please visit our website: https://www.fastumi.com/pro
+please visit our website https://www.fastumi.com/pro
