@@ -1,7 +1,11 @@
-#FastUMI Pro Data Platform (Web)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><sup>powered by</sup><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="180" alt="lumos">
+# FastUMI Pro Data Platform (Web)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><sup>powered by</sup><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="180" alt="lumos">
 
 <img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="150" alt="lumos"><img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="150">  
-<img src="picture/homepage.png" width="150"><img src="picture/data_collect.png" width="150"><img src="picture/data_replay.png" width="150"><img src="picture/data_open.png" width="150">
+
+<div style="width: 100%; overflow-x: auto; white-space: nowrap; padding: 10px 0; background: #f8f9fa;">
+<img src="picture/homepage.png" width="200"><img src="picture/data_collect.png" width="200"><img src="picture/data_replay.png" width="200"><img src="picture/data_open.png" width="200">
+</div>
+
 
 ## 📋 Introduction
 The FastUMI Pro Web Platform is a streamlined data collection and evaluation system for embodied AI. It enables seamless data capture from FastUMI Pro devices, including visual, tactile, and force data. The platform supports real-time playback for data review and validation, while built-in quality assessment tools ensure only high-quality data is retained for model training. It is designed to be user-friendly and suitable for both research and industrial applications.
