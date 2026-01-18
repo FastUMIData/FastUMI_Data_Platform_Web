@@ -14,7 +14,7 @@ FastUMI Pro Web是一个专为具身智能设计的精简数据收集与评估�
 
 ## 🚀 安装部署
 ### 1. 安装hardware sdk
-请参阅https://github.com/FastUMIData/FastUMI_Hardware_SDK,安装ros1和hardware sdk。
+请参阅：https://github.com/FastUMIData/FastUMI_Hardware_SDK,安装ros1和hardware sdk。
 
 ### 2. 克隆仓库
 ```bash
@@ -30,7 +30,7 @@ bash deploy.sh
 ```
 
 ## 📖 如何使用
-请在浏览器中访问http://localhost:8000,使用 user/user123 登陆平台。
+请在浏览器中访问：http://localhost:8000,使用 user/user123 登陆平台。
 
 ## 🔗 联系我们
-请访问我们的官网:https://www.fastumi.com/pro
+请访问我们的官网：https://www.fastumi.com/pro
