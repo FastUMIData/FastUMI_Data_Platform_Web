@@ -22,7 +22,7 @@ please refer to https://github.com/FastUMIData/FastUMI_Hardware_SDK,install ros1
 git clone git@github.com:FastUMIData/FastUMI_Data_Platform_Web.git
 ```
 ### 3. download backend binary files
-Due to github upload file size restrictions, please first download the file from the following link：
+Due to github upload file size restrictions, please first download the file from the following link:
 https://pan.baidu.com/s/1qrWr-NCGLDP3PmhrnBL8eg?pwd=s4ux
 
 ### 4. run deploy.bash
@@ -31,7 +31,7 @@ bash deploy.sh
 ```
 
 ## 📖 How to use
-onced deployed,please visit http://localhost:8000 address in browser,use user/user123 to login.
+onced deployed, please visit http://localhost:8000 address in browser, use user/user123 to login.
 
 ## 🔗 Contact us
-please visit our website:https://www.fastumi.com/pro
+please visit our website: https://www.fastumi.com/pro
