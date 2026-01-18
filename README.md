@@ -2,7 +2,7 @@
 
 <img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="150" alt="lumos"><img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="150">  
 
-homepage  |  data collect
+homepage  |  data collection
 :-------------------------:|:-------------------------:
 <img src="picture/homepage.png" width="250">  |  <img src="picture/data_collect.png" width="250">
 
