@@ -4,11 +4,11 @@
 
 homepage  |  data collect
 :-------------------------:|:-------------------------:
-<img src="picture/homepage.png" width="300">  |  <img src="picture/data_collect.png" width="300">
+<img src="picture/homepage.png" width="250">  |  <img src="picture/data_collect.png" width="250">
 
 data replay  |  data open
 :-------------------------:|:-------------------------:
-<img src="picture/data_replay.png" width="300">  |  <img src="picture/data_open.png" width="300">
+<img src="picture/data_replay.png" width="250">  |  <img src="picture/data_open.png" width="250">
 
 
 
