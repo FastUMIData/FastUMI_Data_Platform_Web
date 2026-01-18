@@ -2,13 +2,14 @@
 
 <img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="150" alt="lumos"><img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="150">  
 
-homepage  |  data_collect
+homepage  |  data collect
 :-------------------------:|:-------------------------:
 <img src="picture/homepage.png" width="300">  |  <img src="picture/data_collect.png" width="300">
 
-<div style="width: 100%; overflow-x: auto; white-space: nowrap; padding: 10px 0; background: #f8f9fa;">
-<img src="picture/homepage.png" width="200"><img src="picture/data_collect.png" width="200"><img src="picture/data_replay.png" width="200"><img src="picture/data_open.png" width="200">
-</div>
+data replay  |  data open
+:-------------------------:|:-------------------------:
+<img src="picture/data_replay.png" width="300">  |  <img src="picture/data_open.png" width="300">
+
 
 
 ## 📋 Introduction
