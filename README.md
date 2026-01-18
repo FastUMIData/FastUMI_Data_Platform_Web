@@ -1,19 +1,17 @@
-# FastUMI Pro Data Platform (Web)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><sup>powered by</sup><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="180" alt="lumos">
-
-<img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="150" alt="lumos"><img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="150">  
+# FastUMI Pro Data Platform (Web)
 
 homepage  |  data collection
 :-------------------------:|:-------------------------:
-<img src="picture/homepage.png" width="200">  |  <img src="picture/data_collect.png" width="200">
+<img src="picture/homepage.png" width="500">  |  <img src="picture/data_collect.png" width="500">
 
 data replay  |  data open
 :-------------------------:|:-------------------------:
-<img src="picture/data_replay.png" width="200">  |  <img src="picture/data_open.png" width="200">
+<img src="picture/data_replay.png" width="500">  |  <img src="picture/data_open.png" width="500">
 
 
 
 ## 📋 Introduction
-FastUMI Pro Web是一个专为具身智能设计的精简数据收集与评估系统。它能够从FastUMI Pro设备中无缝捕获包括视觉、触觉和力觉在内的多维度数据。该平台支持数据的实时回放，便于用户进行数据审查与验证；同时，其内置的质量评估工具可确保仅保留高质量数据用于模型训练。该平台设计注重用户体验，既适用于科研领域，也适用于工业应用场景。
+The FastUMI Pro Web Platform is a streamlined data collection and evaluation system for embodied AI. It enables seamless data capture from FastUMI Pro devices, including visual, tactile, and force data. The platform supports real-time playback for data review and validation, while built-in quality assessment tools ensure only high-quality data is retained for model training. It is designed to be user-friendly and suitable for both research and industrial applications.
 
 ## 🚀 Deployment
 ### 1. install hardware sdk

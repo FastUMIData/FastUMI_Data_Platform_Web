@@ -1,18 +1,16 @@
-# 数采平台<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><sup>powered by</sup><span>&nbsp;&nbsp;</span><img src="fastumi_data_platform_frontend/png/logo-O5mPLYfO.png" width="180" alt="lumos">
-
-<img src="fastumi_data_platform_frontend/png/product-full-CZ_xqpa1.png" width="150" alt="lumos"><img src="fastumi_data_platform_frontend/png/product-portable-D6EuOg2C.png" width="150">  
+# 数采平台
 
 主页  |  数据采集
 :-------------------------:|:-------------------------:
-<img src="picture/homepage.png" width="200">  |  <img src="picture/data_collect.png" width="200">
+<img src="picture/homepage.png" width="500">  |  <img src="picture/data_collect.png" width="500">
 
 数据回放  |  数据开放
 :-------------------------:|:-------------------------:
-<img src="picture/data_replay.png" width="200">  |  <img src="picture/data_open.png" width="200">
+<img src="picture/data_replay.png" width="500">  |  <img src="picture/data_open.png" width="500">
 
 
 ## 📋 平台介绍
-Lumos智能采训系统是一款专为具身智能领域打造的数据采集、管理与标注系统，致力于为VLA模型训练提供高质量、可扩展的数据服务能力。 平台采用存储与业务分离架构，数据可灵活存储于公有云或私有云对象存储。在本地私有云部署环境下，平台已稳定支撑超过300TB数据的标注、导入与导出，充分验证了架构的高可扩展性与可靠性。
+FastUMI Pro Web是一个专为具身智能设计的精简数据收集与评估系统。它能够从FastUMI Pro设备中无缝捕获包括视觉、触觉和力觉在内的多维度数据。该平台支持数据的实时回放，便于用户进行数据审查与验证；同时，其内置的质量评估工具可确保仅保留高质量数据用于模型训练。该平台设计注重用户体验，既适用于科研领域，也适用于工业应用场景。
 
 ## 🚀 安装部署
 ### 1. 安装hardware sdk
