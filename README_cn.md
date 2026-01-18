@@ -4,11 +4,11 @@
 
 主页  |  数据采集
 :-------------------------:|:-------------------------:
-<img src="picture/homepage.png" width="250">  |  <img src="picture/data_collect.png" width="250">
+<img src="picture/homepage.png" width="200">  |  <img src="picture/data_collect.png" width="200">
 
 数据回放  |  数据开放
 :-------------------------:|:-------------------------:
-<img src="picture/data_replay.png" width="250">  |  <img src="picture/data_open.png" width="250">
+<img src="picture/data_replay.png" width="200">  |  <img src="picture/data_open.png" width="200">
 
 
 ## 📋 平台介绍
