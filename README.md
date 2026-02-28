@@ -26,9 +26,9 @@ Considering the differences in users' computer hardware configurations, we curre
 Due to the file size limit for uploads on GitHub, please download the files from the links below first:
 1. **Full-featured version**: including data visualization, data collection, data replay and data open.
 https://pan.baidu.com/s/1LyOcmxvk7ed37NseV-vTuw?pwd=kc5n
-2. **TOF data-free version**: including data visualization, data collection (excluding TOF data), data replay and data open
+2. **TOF data-free version**: including data visualization, data collection (excluding TOF data), data replay and data open.
 https://pan.baidu.com/s/1sPO4iVwrC0TsckAkDtbznQ?pwd=btmc
-3. **Function-limited version**: including data collection (excluding TOF data), data replay and data open
+3. **Function-limited version**: including data collection (excluding TOF data), data replay and data open.
 https://pan.baidu.com/s/18GLra9Y3cjP0KpQVw1gnAA?pwd=eg23
 
 ### 4. run deploy.bash
