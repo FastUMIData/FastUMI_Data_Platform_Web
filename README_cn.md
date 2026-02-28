@@ -23,9 +23,9 @@ git clone git@github.com:FastUMIData/FastUMI_Data_Platform_Web.git
 ### 3. 下载后端二进制文件
 考虑到用户的电脑硬件配置存在差异，目前我们提供3个版本的后端二进制文件，请用户根据实际配置选择合适的版本。我们提供了电脑推荐配置清单，请访问：https://www.fastumi.com/pro/#recommendConfiguration。
 由于github上传文件大小限制，请先从下方链接下载文件：
-1. **全功能版本**，包含数据可视化，数据采集，数据回放，数据开放：https://pan.baidu.com/s/1LyOcmxvk7ed37NseV-vTuw?pwd=kc5n
-2. **无tof数据版本**，包含数据可视化，数据采集（不采集tof数据），数据回放，数据开放：https://pan.baidu.com/s/1sPO4iVwrC0TsckAkDtbznQ?pwd=btmc
-3. **功能受限版本**，包含数据采集（不采集tof数据），数据回放，数据开放：https://pan.baidu.com/s/18GLra9Y3cjP0KpQVw1gnAA?pwd=eg23
+1. **全功能版本**，包含数据可视化，数据采集，数据回放，数据开放：https://pan.baidu.com/s/1yxyEancTqXAo9vACV7T94w?pwd=62ig
+2. **无tof数据版本**，包含数据可视化，数据采集（不采集tof数据），数据回放，数据开放：https://pan.baidu.com/s/1SM6ossEALj6DFz62Ny4xEg?pwd=e81d
+3. **功能受限版本**，包含数据采集（不采集tof数据），数据回放，数据开放：https://pan.baidu.com/s/1Ge6IPw9m0Vih3ZFP2Y0VwA?pwd=jfh4
 
 ### 4. 运行deploy.bash
 ```bash
