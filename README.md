@@ -22,8 +22,14 @@ please refer to https://github.com/FastUMIData/FastUMI_Hardware_SDK, install ros
 git clone git@github.com:FastUMIData/FastUMI_Data_Platform_Web.git
 ```
 ### 3. download backend binary files
-Due to github upload file size restrictions, please first download the file from the following link:
-https://pan.baidu.com/s/1qrWr-NCGLDP3PmhrnBL8eg?pwd=s4ux
+Considering the differences in users' computer hardware configurations, we currently provide three versions of the backend binary files. Please select the appropriate version based on your actual configuration. We have a list of recommended computer configurations available at: https://www.fastumi.com/pro/#recommendConfiguration.
+Due to the file size limit for uploads on GitHub, please download the files from the links below first:
+1.Full-featured version: including data visualization, data collection, data replay and data open.
+Link: https://pan.baidu.com/s/1LyOcmxvk7ed37NseV-vTuw?pwd=kc5n
+2.TOF data-free version: including data visualization, data collection (excluding TOF data), data replay and data open
+Link: https://pan.baidu.com/s/1sPO4iVwrC0TsckAkDtbznQ?pwd=btmc
+3.Function-limited version: including data collection (excluding TOF data), data replay and data open
+Link: https://pan.baidu.com/s/18GLra9Y3cjP0KpQVw1gnAA?pwd=eg23
 
 ### 4. run deploy.bash
 ```bash
